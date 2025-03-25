@@ -29,9 +29,9 @@ public class studentArrays {
         students[1] = second;
         students[2] = third;
 
-        for(int i = 0; i < students.length; i++)
+        for(Student n : students)
         {
-            System.out.println(students[i].name + ": " + students[i].score);
+            System.out.println(n.name + ": " + n.score);
         }
     }
 }
