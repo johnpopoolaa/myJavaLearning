@@ -17,7 +17,7 @@ abstract class Duplex extends House // we make this class abstract because we ar
     }
 }
 
-class Bungalow extends Duplex
+class Bungalow extends Duplex // concrete class
 {
     public void amenities()
     {
