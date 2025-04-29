@@ -63,8 +63,8 @@ public class collection {
         nums3.add(22);
         // we can print the values from our collection with an iterator
         Iterator<Integer> values = nums3.iterator();
-        while(values.hasNext())
-            System.out.println(values.next());
+        while(values.hasNext()) // checks if we have a next element
+            System.out.println(values.next()); // prints the next value of the iterator
 
         System.out.println("Set TreeSet printed with an iterator");
         System.out.println();
