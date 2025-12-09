@@ -3,7 +3,7 @@
 
 	<servlet>
 		<servlet-name>abc</servlet-name>
-		<servlet-class>com.acmetech.AddServlet2</servlet-class>
+		<servlet-class>com.acmetech.AddServlet3</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
@@ -13,7 +13,7 @@
 	
 	<servlet>
 		<servlet-name>pqr</servlet-name>
-		<servlet-class>com.acmetech.SqServlet2</servlet-class>
+		<servlet-class>com.acmetech.SqServlet3</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
@@ -22,4 +22,5 @@
 	</servlet-mapping>
 </web-app>
 
-<!-- Note that you have to update the servlet class of SqServlet and AddServlet to work with requestDispatcher or sendRedirect -->
+<!-- Note that you have to update the servlet class of SqServlet and AddServlet to work with requestDispatcher, 
+sendRedirect(URL Rewriting, HttpSession) -->
