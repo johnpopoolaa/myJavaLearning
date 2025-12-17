@@ -3,7 +3,7 @@
 
 	<servlet>
 		<servlet-name>abc</servlet-name>
-		<servlet-class>com.acmetech.AddServlet3</servlet-class>
+		<servlet-class>com.acmetech.AddServlet4</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
@@ -13,7 +13,7 @@
 	
 	<servlet>
 		<servlet-name>pqr</servlet-name>
-		<servlet-class>com.acmetech.SqServlet3</servlet-class>
+		<servlet-class>com.acmetech.SqServlet4</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
