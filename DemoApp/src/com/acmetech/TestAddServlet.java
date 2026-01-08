@@ -1,4 +1,4 @@
-// Using cookies to call a servlet from servlet
+//trying out my servlet skills
 
 package com.acmetech;
 
@@ -9,16 +9,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class AddServlet4 extends HttpServlet {
+public class TestAddServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		int i = Integer.parseInt(req.getParameter("num1"));
 		int j = Integer.parseInt(req.getParameter("num2"));
 		
 		int k = i + j;
 		
-		Cookie cookie = new Cookie("k", k + ""); // create the cookie and convert the integer to string using + and ""(append)
-		res.addCookie(cookie); // pass the cookie to the result, adding it
+		Cookie cookie = new Cookie("k", k + "");
+		res.addCookie(cookie);
 		
-		res.sendRedirect("sq"); // specify the address to redirect to
+		res.sendRedirect("sq");
 	}
 }
