@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@ page errorPage="error.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%=7+6%>
+	<%=7+6%> <br>
+	<%= 9 / 0 %>
 </body>
 </html>
