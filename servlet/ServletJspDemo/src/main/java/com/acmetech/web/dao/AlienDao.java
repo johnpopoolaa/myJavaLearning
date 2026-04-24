@@ -6,7 +6,7 @@ public class AlienDao {
 	public Alien getAlien(int aid)
 	{
 		Alien a = new Alien();
-		a.setAid(1);
+		a.setAid(101);
 		a.setAname("John");
 		a.setTech("Java");
 		
